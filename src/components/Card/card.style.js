@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 
 
+
 export const CardsC = styled.div `
     display:flex;
     flex-direction: column;
@@ -11,7 +12,7 @@ export const CardsC = styled.div `
     backdrop-filter: blur(10px);
     margin-top: 50px;
     width:80%;
-    height: 530px;
+    height: auto;
     border-radius:10px;
 `
 
@@ -33,4 +34,31 @@ export const CardBoton =  styled.button`
     margin-top:20px;
     cursor:pointer;
     background-color:#5CAD4A;
+    
+`
+export const CardTitle = styled.h2 `
+    width:350px;
+    border-radius:10px;
+    font-family: 'Rubik Puddles', cursive;
+    font-size:2.5rem;
+    background-color:#5CAD4A;
+    border-color:#000000;
+
+`
+
+export const CardDivTitles = styled.div`
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+`
+
+export const CardSubTitle = styled.h2 `
+    width:220px;
+    border-radius:10px;
+    font-family: 'Rubik Puddles', cursive;
+    font-size:2.5rem;
+    background-color:#5CAD4A;
+    border-color:#000000;
+
 `
